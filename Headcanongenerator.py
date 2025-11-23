@@ -4,7 +4,7 @@ print("Type in the character's name below.")
 CharacterName = input()
 print("")
 while True:
-	random_number = random.randint(1,50)
+	random_number = random.randint(1,30)
 	if random_number == 1:
 		print(CharacterName,"likes eating wooden chairs.")
 		break
@@ -95,3 +95,4 @@ while True:
 	if random_number == 30:
 		print(CharacterName,"says \"GOO GOO GA GA\"")
 		break
+
